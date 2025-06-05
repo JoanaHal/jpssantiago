@@ -38,8 +38,8 @@ body .paragrafo_inicial{
 }
 
 .sessao{
-    margin-left:15%;
-    margin-right: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .table-primary{
@@ -108,7 +108,9 @@ body .legenda{
 
 .bloco{
     color:white;
-    font-size: large;
+    font-size: 1rem;;
+    text-indent: 3%;
+    text-align: justify;    
 }
 
 .paragrafo_sobre{
@@ -165,6 +167,19 @@ body .legenda{
     font-size: x-large;
 }
 
+
+.videoi{
+    text-decoration: solid;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    font-size: x-large;
+}
+
 .youtube{
     color: red;
 }
@@ -187,36 +202,83 @@ body .legenda{
     padding: 150px;
 }
 
-.footer{    
-    text-align:left ;
-    text-emphasis-position:initial;   
-    width: auto;
+.footer {   
+    background: linear-gradient(to top, rgb(66, 66, 66), rgb(26, 26, 26), rgb(0, 0, 0));    
+    margin: 0;
+    padding: 20px;
+    text-align: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    font-size:medium;
-    text-size-adjust:initial;   
-    margin: 0%;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    max-width: 100%;
+    word-wrap: break-word;  
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+    font-size: 1rem;    
 }
 
-.footer_box {
-    background: linear-gradient(to top, rgb(66, 66, 66), rgb(26, 26, 26), rgb(0, 0, 0));    
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: transparent;
+    flex: 1 1 200px; 
+    min-width: 150px;     
+    text-align: center;
+    color: white;
+}
+
+.left-card,
+.center-card,
+.right-card {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size: 1rem;
+    border: none;    
+}
+
+.coluna {
+    flex: 1;
+    padding: 7px;
 }
 
 .contato{
-    columns: 1;
     -ms-grid-row-align: left;
-    text-align: left;
+    text-align: center;
     text-decoration: wavy;
-    font-size:large;
+    font-size:medium;
     font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.contato2{
+    -ms-grid-row-align: left;
+    text-align: center;
+    text-decoration: wavy;
+    font-size:smaller;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 #servico{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    letter-spacing: 3px;
-    font-size: medium;
+    letter-spacing: 2px;
+    font-size: large;
     vertical-align: bottom;
    
 }
@@ -231,11 +293,16 @@ body .legenda{
 
 .copyright{
     text-align: center;
-    font-size: xx-small;
+    font-size:small;
+    color: whitesmoke;
 }
 
 .middle{
-    margin-left: 2%;   
+    margin-top: 3%;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: large;   
 }
 
 img {
