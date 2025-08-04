@@ -55,7 +55,9 @@ body .paragrafo_inicial{
     font-size: x-large;  
     text-align: center; 
     margin: 7%;
-    border: black;
+    color: white;
+    border: #ed8237;
+    background-color: black;
     border-style:double;
 }
 
