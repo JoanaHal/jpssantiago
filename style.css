@@ -315,3 +315,28 @@ img {
     margin-top: 2%;
     margin-bottom: 5%;
 }
+
+@media (max-width: 768px) {
+    /* Estilos para o bloco "Sobre mim" */
+    .row {
+        flex-direction: column;
+    }
+    
+    /* Estilos para o bloco onde a imagem vem depois do texto */
+    .reverse-on-mobile {
+        flex-direction: column-reverse; /* Inverte a ordem para que a imagem fique em cima */
+    }
+
+    /* Outros ajustes de visibilidade e espaçamento para mobile */
+    .row h3 {
+        display: none; /* Oculta títulos se necessário */
+    }
+
+    .bloco {
+        margin-top: 15px; /* Adiciona um espaçamento entre a imagem e o texto */
+    }
+
+    .col-12, .col-md-4, .col-md-8 {
+        text-align: center; /* Centraliza o conteúdo nas colunas */
+    }
+}
