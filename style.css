@@ -3,9 +3,13 @@
     padding: 0%; 
 }
 
-
 .bi{
-    color: black;
+    color: #ed8237;
+}
+
+.nav-link{
+    color: white;
+    font-size: medium;
 }
 
 .buttons{
