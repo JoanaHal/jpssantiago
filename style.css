@@ -167,12 +167,10 @@ body .legenda{
 .video{
     text-decoration: solid;
     font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
-    padding-bottom: 50px;
-    padding-top: 30px;
+    font-weight: bolder; 
     text-align: center;
     margin-left: 13%;
-    margin-right:13%;
+    margin-right: 13%;
     font-size: x-large;
 }
 
