@@ -323,11 +323,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    /* Estilos para o bloco "Sobre mim" */
-    .row {
-        flex-direction: column;
-    }
-    
+
     /* Estilos para o bloco onde a imagem vem depois do texto */
     .reverse-on-mobile {
         flex-direction: column-reverse; /* Inverte a ordem para que a imagem fique em cima */
